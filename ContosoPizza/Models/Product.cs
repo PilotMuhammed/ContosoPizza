@@ -7,7 +7,6 @@ namespace ContosoPizza.Models
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         [Column(TypeName ="decimal(6,2)")]
-        public decimal Price { get; set; }
-
+        public decimal Price { get; set; } 
     }
 }
